@@ -1,0 +1,4 @@
+git clone  link// clone repo link inside your local machine
+git status // tell you the new updates happened in your local machine
+git add file_location // you can use * to add all files you updated to your local storage , to select a specific file you just need to specify file file_location
+git reset head file_location // remove file from local storage 
