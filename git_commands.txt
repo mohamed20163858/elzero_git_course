@@ -8,3 +8,11 @@ git remote // tell you your remote name
 git remote -v // tell you your remote name  with remote location and info
 git push remote_name branch_name // push element from local repo to remote repo 
 // ex :- git push origin main 
+git pull origin // get new added elements from github server
+git config -l // show all config options
+git help config // show you a link where you can get all the resources of config commands
+git config --global --unset (user.email or user.name)
+git config --global user.email // show user email
+git config --global user.email your_email_address // set your user.email attribute
+git config --global --edit // open config file to edit it after type this command :- git config --global core.editor code
+
