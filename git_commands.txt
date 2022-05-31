@@ -36,7 +36,18 @@ git checkout -b <branch_name> // create new branch and switch to it directly
 git branch -m <new_branch_name> // rename the current branch 
 git merge <branch_name> // merge the <branch_name>  to current branch i am in 
 git stash // save the current files in stash to not upload them to remote server currently and modify them later
-git stash pop // pop the files inside stash into your current branch 
+git stash pop // pop the files inside last stash into your current branch and remove it from stash 
 git stash list // list the files inside the stash
+git stash apply // return a copy of your last stash without removing it from stash
+git stash save 'ur_message' // save files in a stash with that message
+git stash pop stash@{id} // pop files from certain stash id (like accessing array elements)
+git stash apply stash@{id} // return copy of files from certain stash id (like accessing array elements)
+git stash drop // delete the last stash item
+git stash drop stash@{ID} // delete the stash item with id = ID (like accessing array elements)
+git stash show// show the contents of the last stash item
+git stash show stash@{ID} //  show the contents of the stash item with id = ID (like accessing array elements)
+git stash clear // clear all stash elements
+
+
 
 
