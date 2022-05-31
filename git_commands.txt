@@ -47,6 +47,7 @@ git stash drop stash@{ID} // delete the stash item with id = ID (like accessing 
 git stash show// show the contents of the last stash item
 git stash show stash@{ID} //  show the contents of the stash item with id = ID (like accessing array elements)
 git stash clear // clear all stash elements
+git restore --staged <file_name> // remove file_name  from staging area
 
 
 
