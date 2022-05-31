@@ -35,5 +35,8 @@ git branch -D <branch_name>// force delete the branch whether it is marged or no
 git checkout -b <branch_name> // create new branch and switch to it directly
 git branch -m <new_branch_name> // rename the current branch 
 git merge <branch_name> // merge the <branch_name>  to current branch i am in 
+git stash // save the current files in stash to not upload them to remote server currently and modify them later
+git stash pop // pop the files inside stash into your current branch 
+git stash list // list the files inside the stash
 
 
