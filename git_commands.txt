@@ -48,6 +48,21 @@ git stash show// show the contents of the last stash item
 git stash show stash@{ID} //  show the contents of the stash item with id = ID (like accessing array elements)
 git stash clear // clear all stash elements
 git restore --staged <file_name> // remove file_name  from staging area
+git restore --staged * // remove all files  from staging area
+git clean -n // list all files that will be removed in pre-stagging area
+git clean -f // remove all files in pre-stagging area 
+code <file_name> // will open file in visual studio
+git log // will open log file of git 
+git reset --hard <commit_hash> // will remove all updates after that certain commit using its hash  
+// you need to use this command to update your remote repo git push origin main --force 
+touch .gitignore // create git ignore file to write a list of files and folders to not be uploaded to your remote repo 
+// famous git ignore patterns
+// *.file_extension ( donot include all files with that extension )
+// ! file_name.file_extension ( exculde this file to be uploaded if file extension (type) is forced to not be uploaded)
+// folder_name/  // doesnot include this file to be uploaded 
+// file_name.file_extension ( include this special file to not be uploaded)
+
+
 
 
 
