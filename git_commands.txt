@@ -61,6 +61,15 @@ touch .gitignore // create git ignore file to write a list of files and folders 
 // ! file_name.file_extension ( exculde this file to be uploaded if file extension (type) is forced to not be uploaded)
 // folder_name/  // doesnot include this file to be uploaded 
 // file_name.file_extension ( include this special file to not be uploaded)
+git tag // view the current tag you are working on
+git tag tag_name // light weight tag ( take the commit of your last commited)
+git push origin tag_name // push the current tag to remote server
+git tag -a tag_name -m your_message // annotated tag will take your_message as your tag commit
+git tag -l "your pattern" // will list all the tags that has that pattern ex v1.* 
+git tag -d tag_name // delete tag_name from your local 
+git push origin --delete tag_name // delete tag_name from remote server 
+
+
 
 
 
